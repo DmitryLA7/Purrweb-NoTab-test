@@ -158,7 +158,7 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 22px 100px;
+  padding: 22px 15px;
   z-index: 3;
   position: fixed;
   bottom: 0;
@@ -1110,6 +1110,10 @@ p {
 @media all and (min-width: 768px) {
   p {
     font-size: 18px;
+  }
+
+  .cookie {
+    padding: 22px 100px;
   }
 
   .cookie__item {
