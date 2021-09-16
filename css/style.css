@@ -189,10 +189,20 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #373D48;
+  background: #373d48;
   border-radius: 10px;
   font-size: 14px;
   border: 1px solid #E3E4E6;
+  -webkit-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.cookie__item a:hover {
+  -webkit-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  background: rgba(55, 61, 72, 0.2);
 }
 
 .wrapper {
